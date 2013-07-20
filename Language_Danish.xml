@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+
+    <!-- Create "Danish" translations table -->
+    <Table name="Language_DA">
+       <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+       <Column name="Tag" type="text" notnull="true" />
+       <Column name="Text" type="text" notnull="true" />
+       <Column name="Gender" type="text" />
+       <Column name="Plurality" type="text" />
+    </Table>
+    
+    <!-- Add "Danish" language entry -->
+    <Languages>
+        <Row>
+            <Type>da</Type>
+            <Name>Danish</Name>
+            <TableName>Language_DA</TableName>
+
+            <!-- Please see http://wiki.2kgames.com/civ5/index.php/Mods:LocalizationSyntax#List_of_Plural_Rules for more information on plurality rules -->
+            <PluralRule>2</PluralRule>
+            <UseExtendedFont>1</UseExtendedFont>
+	                
+	    <!-- Name of an installed font on the user's machine -->
+            <FontName>Tahoma</FontName>
+        </Row>
+    </Languages>
+
+    <!-- Insert Translations Here -->
+<Language_da>
+		<Row Tag="TXT_KEY_TECH_ALPHABET">
+			<Text>Alfabet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY">
+			<Text>Husdyrbrug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BIOLOGY">
+			<Text>Biologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BRONZE_WORKING">
+			<Text>Bronzeproduktion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHEMISTRY">
+			<Text>Kemi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHIVALRY">
+			<Text>Ridderskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPASS">
+			<Text>Kompas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CONSTRUCTION">
+			<Text>Byggekunstskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DYNAMITE">
+			<Text>Dynamit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ECONOMICS">
+			<Text> Økonomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EDUCATION">
+			<Text>Uddannelse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ELECTRICITY">
+			<Text>Elektricitet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ENGINEERING">
+			<Text>Ingeniørkunst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FUTURE_TECH">
+			<Text>Fremtidsteknologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GUNPOWDER">
+			<Text>Krudt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HORSEBACK_RIDING">
+			<Text>Ridning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INTERCHANGEABLE_PARTS">
+			<Text>Udskiftelige dele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_IRON_WORKING">
+			<Text>Jernproduktion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MACHINERY">
+			<Text>Maskineri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MASONRY">
+			<Text>Murværk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MATHEMATICS">
+			<Text>Matematik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MEDICINE">
+			<Text>Medicin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_METAL_CASTING">
+			<Text>Metalstøbning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_METALLURGY">
+			<Text>Metallurgi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MILITARY_SCIENCE">
+			<Text>Militærvidenskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_Minedrift">
+			<Text>Minedrift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PHYSICS">
+			<Text>Fysik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_POTTERY">
+			<Text>Pottemagerkunst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RAILROAD">
+			<Text>Jernbane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_Rifler">
+			<Text>Rifler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SAILING">
+			<Text>Sejllads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SCIENTIFIC_METHOD">
+			<Text>Videnskabelig metode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STEAM_POWER">
+			<Text>Dampkraft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STEEL">
+			<Text>Stål</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_WRITING">
+			<Text>Skrivning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ACOUSTICS_TITLE">
+			<Text>Akustik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_TITLE">
+			<Text>Avanceret ballistik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_AGRICULTURE_TITLE">
+			<Text>Argerbrug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ANIMAL_HUSBANDRY_TITLE">
+			<Text>Husdyrsbrug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARCHAEOLOGY_TITLE">
+			<Text>Arkæologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARCHERY_TITLE">
+			<Text>Bueskydning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ASTRONOMY_TITLE">
+			<Text>Astronomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ATOMIC_THEORY_TITLE">
+			<Text>Atomteori</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BALLISTICS_TITLE">
+			<Text>Ballistik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BANKING_TITLE">
+			<Text>Bankvæsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BIOLOGY_TITLE">
+			<Text>Biologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_BRONZE_WORKING_TITLE">
+			<Text>Bronzeproduktion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CALCULUS_TITLE">
+			<Text>Kalkulus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CALENDAR_TITLE">
+			<Text>Kalender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHEMISTRY_TITLE">
+			<Text>Kemi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHIVALRY_TITLE">
+			<Text>Ridderskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CIVIL_SERVICE_TITLE">
+			<Text>Statsforvaltning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMBUSTION_TITLE">
+			<Text>Forbrændingsmotor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPASS_TITLE">
+			<Text>Kompas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMPUTERS_TITLE">
+			<Text>Datamaskiner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CONSTRUCTION_TITLE">
+			<Text>Byggekunst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CURRENCY_TITLE">
+			<Text>Møntfod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DYNAMITE_TITLE">
+			<Text>Dynamit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ECOLOGY_TITLE">
+			<Text>Økologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ECONOMICS_TITLE">
+			<Text>Økonomi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_EDUCATION_TITLE">
+			<Text>Uddannelse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ELECTRICITY_TITLE">
+			<Text>Elektricitet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ELECTRONICS_TITLE">
+			<Text>Elektronik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ENGINEERING_TITLE">
+			<Text>Ingeniørkunst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FERTILIZER_TITLE">
+			<Text>Gødning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FLIGHT_TITLE">
+			<Text>Flyvning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_FUTURE_TECH_TITLE">
+			<Text>Fremtidsteknologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GLOBALIZATION_TITLE">
+			<Text>Globalisering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GUNPOWDER_TITLE">
+			<Text>Krudt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_HORSEBACK_RIDING_TITLE">
+			<Text>Ridning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_IRON_WORKING_TITLE">
+			<Text>Jernproduktion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_LASERS_TITLE">
+			<Text>Laser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MACHINERY_TITLE">
+			<Text>Maskineri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MASONRY_TITLE">
+			<Text>Murværk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MASS_MEDIA_TITLE">
+			<Text>Massemedie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MATHEMATICS_TITLE">
+			<Text>Matematik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_METAL_CASTING_TITLE">
+			<Text>Metalstøbning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_METALLURGY_TITLE">
+			<Text>Metallurgi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MILITARY_SCIENCE_TITLE">
+			<Text>Militærvidenskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_Minedrift_TITLE">
+			<Text>Minedrift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NANOTECHNOLOGY_TITLE">
+			<Text>Nanoteknologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NAVIGATION_TITLE">
+			<Text>Navigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NUCLEAR_FISSION_TITLE">
+			<Text>Kernefission</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NUCLEAR_FUSION_TITLE">
+			<Text>Kernefusion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_OPTICS_TITLE">
+			<Text>Optik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PARTICLE_PHYSICS_TITLE">
+			<Text>Partikelfysik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PATRONAGE_TITLE">
+			<Text>Mæcenat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PENICILIN_TITLE">
+			<Text>Penicillin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PHILOSOPHY_TITLE">
+			<Text>Filosofi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PHYSICS_TITLE">
+			<Text>Fysik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PLASTICS_TITLE">
+			<Text>Plastik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_POTTERY_TITLE">
+			<Text>Pottemagerkunst</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PRINTING_PRESS_TITLE">
+			<Text>Trykpressen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PUBLISHING_TITLE">
+			<Text>Forlag</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RADAR_TITLE">
+			<Text>Radar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RADIO_TITLE">
+			<Text>Radio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_RAILROAD_TITLE">
+			<Text>Jernbane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_REFRIGERATION_TITLE">
+			<Text>Nedkøling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_TITLE">
+			<Text>Udskiftelige dele</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_Rifler_TITLE">
+			<Text>Rifler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ROBOTICS_TITLE">
+			<Text>Robotter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ROCKETRY_TITLE">
+			<Text>Raketter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SAILING_TITLE">
+			<Text>Sejllads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SATELLITES_TITLE">
+			<Text>Satellitter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_TITLE">
+			<Text>Videnskabelig metode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STEALTH_TITLE">
+			<Text>Sløringsteknologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STEAM_POWER_TITLE">
+			<Text>Dampkraft</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_STEEL_TITLE">
+			<Text>Stål</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TELEGRAPH_TITLE">
+			<Text>Telegram</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_THE_WHEEL_TITLE">
+			<Text>Hjulet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_THEOLOGY_TITLE">
+			<Text>Teologi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TRADE_HEADING4_TITLE">
+			<Text>Handel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TRAPPING_TITLE">
+			<Text>Fælder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_WRITING_TITLE">
+			<Text>Skrivning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARCHITECTURE">
+			<Text>Arkitektur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_ARCHITECTURE_TITLE">
+			<Text>Arkitektur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GUILDS">
+			<Text>Laug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GUILDS_TITLE">
+			<Text>Laug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMBINED_ARMS">
+			<Text>Kombineret værn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_COMBINED_ARMS_TITLE">
+			<Text>Kombineret værn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DRAMA">
+			<Text>Teaterkunstskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_DRAMA_TITLE">
+			<Text>Teaterkunstskab</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INDUSTRIALIZATION">
+			<Text>Industrialisering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INDUSTRIALIZATION_TITLE">
+			<Text>Industrialisering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MOBILE_TACTICS">
+			<Text>Mobilitetstaktik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_MOBILE_TACTICS_TITLE">
+			<Text>Mobilitetstaktik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TELECOM">
+			<Text>Telekommunikation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_TELECOM_TITLE">
+			<Text>Telekommunikation</Text>
+		</Row>
+
+
+
+	</Language_da>
+</GameData>
