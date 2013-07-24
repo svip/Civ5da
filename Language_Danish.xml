@@ -498,7 +498,7 @@
 	      <Gender>neuter:det</Gender>
 	    </Row>
 	    <Row Tag="TXT_KEY_BUILDING_GREAT_LIGHTHOUSE">
-	      <Text>Højde Fyrtårn</Text>
+	      <Text>Høje Fyrtårn</Text>
 	      <Gender>neuter:det</Gender>
 	    </Row>
 	    <Row Tag="TXT_KEY_BUILDING_GREAT_WALL">
@@ -1190,7 +1190,7 @@
 					<Text>Ørken</Text>
 				</Row>
 				<Row Tag="TXT_KEY_TERRAIN_GRASS">
-					<Text>Græssletter</Text>
+					<Text>Enge</Text>
 				</Row>
 				<Row Tag="TXT_KEY_TERRAIN_HILL">
 					<Text>Bakke</Text>
@@ -1591,7 +1591,7 @@
 				<Gender>mixed:en</Gender>
 			</Row>
 			<Row Tag="TXT_KEY_UNIT_INDIAN_WARELEPHANT">
-				<Text>Krigselefant</Text>
+				<Text>Stridselefant</Text>
 				<Gender>mixed:en</Gender>
 			</Row>
 			<Row Tag="TXT_KEY_UNIT_INFANTRY">
@@ -1729,7 +1729,7 @@
 				<Gender>mixed:en</Gender>
 			</Row>
 			<Row Tag="TXT_KEY_UNIT_SWORDSMAN">
-				<Text>Hirdsmand</Text>
+				<Text>Sværdkæmper</Text>
 				<Gender>mixed:en</Gender>
 			</Row>
 			<Row Tag="TXT_KEY_UNIT_TANK">
@@ -1759,7 +1759,7 @@
 				<Gender>mixed:en</Gender>
 			</Row>
 			<Row Tag="TXT_KEY_UNITCOMBAT_FIGHTER">
-				<Text>Krigsenheder</Text>
+				<Text>Stridsenheder</Text>
 				<Plurality>2</Plurality>
 			</Row>
 			<Row Tag="TXT_KEY_UNITCOMBAT_BOMBER">
@@ -3144,7 +3144,7 @@
 	      <Text>DRÆBT I AKTION</Text>
 	    </Row>
 	    <Row Tag="TXT_KEY_CHOOSE_PANTHEON_TITLE">
-	      <Text>Skab en Mytologi</Text>
+	      <Text>Grundlæg Mytologi</Text>
 	    </Row>
 	    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE">
 	      <Text>Grundlæg en Religion</Text>
@@ -3180,10 +3180,10 @@
 	      <Text>Vælg en Troendes Dogme.</Text>
 	    </Row>
 	    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SPREAD_BELIEF">
-	      <Text>Forbedredogme</Text>
+	      <Text>Spredningsdogme</Text>
 	    </Row>
 	    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_SPREAD_BELIEF">
-	      <Text>Vælg en Forbedredogme.</Text>
+	      <Text>Vælg en Spredningsdogme.</Text>
 	    </Row>
 	    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BONUS_BELIEF">
 	      <Text>Bonusdogme</Text>
@@ -3589,7 +3589,7 @@
                 <Text>Votes for You:</Text>
             </Row>
             <Row Tag="TXT_KEY_VP_DIPLO_PROJECT_BUILT_BY" >
-                <Text>{1_player} has completed the United Nations.</Text>
+                <Text>{1_player} har færdigjort de Forenede Nationer.</Text>
             </Row>
             <Row Tag="TXT_KEY_VP_DIPLO_PROJECT_PLAYERS_COMPLETE" >
                 <Text>
@@ -9119,21 +9119,21 @@
                     <Text>Aztekisk</Text>
                 </Row>
                 <Row Tag="TXT_KEY_CIV_AZTEC_DESC">
-                    <Text>Aztekkerriget</Text>
+                    <Text>Aztekerriget</Text>
                 </Row>
                 <Row Tag="TXT_KEY_CIV_AZTEC_SHORT_DESC">
-                    <Text>Aztekkerne</Text>
+                    <Text>Aztekerne</Text>
                     <Gender>neuter:no_article</Gender>
         		<Plurality>2</Plurality>
                 </Row>
                 <Row Tag="TXT_KEY_CIV_BARBARIAN_ADJECTIVE">
-                    <Text>Barbar</Text>
+                    <Text>Barbarisk</Text>
                 </Row>
                 <Row Tag="TXT_KEY_CIV_BARBARIAN_DESC">
                     <Text>Barbarstaten</Text>
                 </Row>
                 <Row Tag="TXT_KEY_CIV_BARBARIAN_SHORT_DESC">
-                    <Text>Barbare</Text>
+                    <Text>Barbarene</Text>
                     <Plurality>2</Plurality>
                 </Row>
                 <Row Tag="TXT_KEY_CIV_CHINA_ADJECTIVE">
