@@ -271,7 +271,7 @@
 		<Row Tag="TXT_KEY_TECH_MILITARY_SCIENCE_TITLE">
 			<Text>Militærvidenskab</Text>
 		</Row>
-		<Row Tag="TXT_KEY_TECH_Minedrift_TITLE">
+		<Row Tag="TXT_KEY_TECH_MINING_TITLE">
 			<Text>Minedrift</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TECH_NANOTECHNOLOGY_TITLE">
@@ -950,10 +950,10 @@
 					<Text>Pasture</Text>
 				</Row>
 				<Row Tag="TXT_KEY_IMPROVEMENT_PLANTATION">
-					<Text>Plantation</Text>
+					<Text>Plantage</Text>
 				</Row>
 				<Row Tag="TXT_KEY_IMPROVEMENT_QUARRY">
-					<Text>Udgravning</Text>
+					<Text>Stenbrud</Text>
 				</Row>
 				<Row Tag="TXT_KEY_IMPROVEMENT_TRADING_POST">
 					<Text>Handelssted</Text>
